@@ -43,7 +43,7 @@ def read_requirements():
     return packages
 
 
-setup(name="ppdiffusers",
+setup(name="ppdiffusers-dev",
       packages=find_packages(),
       version=read_version(),
       author="PaddleNLP Team",
