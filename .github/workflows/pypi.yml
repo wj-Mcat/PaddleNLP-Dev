@@ -51,7 +51,7 @@ jobs:
         run: |
           make deploy-ppdiffusers
 
-      - name: Should Deploy To Pypi Server
+      - name: Should Not Deploy To Pypi Server
         if: steps.should-deploy.outputs.should_deploy != 'true'
         run: echo 'should not deploy pypi server'
 
